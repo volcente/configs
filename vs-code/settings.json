@@ -17,7 +17,7 @@
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Iosevka",
+  "editor.fontFamily": "Iosevka Nerd Font",
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
   "editor.minimap.enabled": false,
@@ -40,7 +40,7 @@
 
   // Terminal
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "Iosevka Term",
+  "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font",
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.minimumContrastRatio": 1,
   "files.associations": {
@@ -125,4 +125,3 @@
   "catppuccin.workbenchMode": "flat",
   "catppuccin.accentColor": "lavender"
 }
-
