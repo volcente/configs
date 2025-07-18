@@ -1,0 +1,15 @@
+font-size = 18
+font-family = Iosevka Term
+
+theme = catppuccin-macchiato
+
+window-width = 160
+window-height = 32
+window-padding-y = 8
+window-padding-x = 8
+
+clipboard-read = allow
+clipboard-write = allow
+clipboard-trim-trailing-spaces = true
+
+auto-update = download

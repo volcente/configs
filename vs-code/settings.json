@@ -1,0 +1,128 @@
+{
+  // Workbench and Window
+  "window.zoomLevel": 1,
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "workbench.tree.indent": 16,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.navigationControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Iosevka",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  // Terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Iosevka Term",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.classFunctions": ["cva", "cx", "cn"],
+
+  // Git
+  "git.autofetch": "all",
+  "git.pruneOnFetch": true,
+  "git.autofetchPeriod": 140,
+
+  // TS
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.autoImportFileExcludePatterns": ["lucide-react"],
+
+  // Svelte
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+
+  // Golang
+  "go.formatTool": "gofmt",
+  "go.lintTool": "golangci-lint",
+  "go.toolsManagement.autoUpdate": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  // Vim
+  "vim.hlsearch": true,
+  "vim.surround": true,
+  "vim.incsearch": true,
+  "vim.easymotion": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-j>": false,
+    "<C-b>": false,
+    "<C-w>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": [
+        {
+          "command": "editor.action.showDefinitionPreviewHover"
+        }
+      ]
+    }
+  ],
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+
+  // Catppuccin Configuration
+  "catppuccin.boldKeywords": true,
+  "catppuccin.workbenchMode": "flat",
+  "catppuccin.accentColor": "lavender"
+}
+
