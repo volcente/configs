@@ -1,9 +1,14 @@
 {
   // Workbench and Window
-  "window.zoomLevel": 1,
+  // Laptop Zoom Level
+  "window.zoomLevel": 0.625,
+  // Desktop Zoom Level
+  // "window.zoomLevel": 1,
+  "workbench.colorTheme": "poimandres",
+  "workbench.iconTheme": "chalice-icon-theme",
+  // "workbench.colorTheme": "catpuccin-macchiato",
+  // "workbench.iconTheme": "catppuccin-macchiato",
   "window.titleBarStyle": "custom",
-  "workbench.colorTheme": "Catppuccin Macchiato",
-  "workbench.iconTheme": "catppuccin-macchiato",
   "workbench.tree.indent": 16,
   "workbench.statusBar.visible": true,
   "workbench.sideBar.location": "right",
@@ -17,7 +22,7 @@
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Iosevka Nerd Font",
+  "editor.fontFamily": "CommitMono",
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
   "editor.minimap.enabled": false,
@@ -40,7 +45,7 @@
 
   // Terminal
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font",
+  "terminal.integrated.fontFamily": "CommitMono",
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.minimumContrastRatio": 1,
   "files.associations": {
